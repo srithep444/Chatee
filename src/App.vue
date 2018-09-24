@@ -18,6 +18,7 @@ html {
 body {
   display: flex;
   justify-content: center;
+  align-items:flex-start;
   height: 100%;
   background: url('./assets/img1.jpg') 0 0 no-repeat;
 }
