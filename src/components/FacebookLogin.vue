@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" >
     <button @click="sign()"> Facebook </button>
     <button @click="signOut()"> signout </button>
     <br>
@@ -29,7 +29,8 @@ export default {
 
   data () {
     return {
-      displayName: ''
+      displayName: '',
+      backgroundUrl:'http://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1532246957&di=5c7453291ff3ca5963cca9c40a0be2ca&imgtype=jpg&src=http%3A%2F%2Fimg6.bdstatic.com%2Fimg%2Fimage%2Fpcindex%2Ftongmengpctufanbingbing.jpg'
     }
   },
   methods: {
@@ -64,6 +65,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -72,4 +74,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>

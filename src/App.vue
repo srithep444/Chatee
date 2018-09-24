@@ -7,10 +7,20 @@
 <script>
 export default {
   name: 'App'
+
 }
 </script>
 
 <style>
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background: url('./assets/img1.jpg') 0 0 no-repeat;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
