@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="bg-component" >
-    <button @click="sign()"> Facebook </button>
-    <button @click="signOut()"> signout </button>
+    <button class='fb-signin-button' @click="sign()"> Sign in with Facebook </button>
+    <button class='fb-signin-button' @click="signOut()"> Signout </button>
     <br>
     {{displayName}}
   </div>
@@ -77,6 +77,15 @@ export default {
   padding: 50px;
   background: url('../assets/img.jpg') 0 0 no-repeat;
   width: 100%;
+}
+
+.fb-signin-button {
+  /* This is where you control how the button looks. Be creative! */
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 3px;
+  background-color: #4267b2;
+  color: #fff;
 }
 
 </style>
